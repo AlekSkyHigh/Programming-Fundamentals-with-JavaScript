@@ -4,6 +4,7 @@
 // At the end print all the list employees in the following format:
 //  "Name: {employeeName} -- Personal Number: {personalNum}" 
 
+// Solve 1 of 2: 
 function employees(inputArray) {
 
     let person = {};
@@ -18,6 +19,29 @@ function employees(inputArray) {
 
         console.log(`Name: ${name} -- Personal Number: ${number}`);
     }
+
+}
+employees([
+    'Silas Butler',
+    'Adnaan Buckley',
+    'Juan Peterson',
+    'Brendan Villarreal'
+])
+
+
+// Solve 2 of 2:
+function employees(inputArray) {
+
+    let employeesList = {};
+
+    inputArray.forEach(person => {
+
+        employeesList[person] = person.length;
+    });
+
+    for (const key in employeesList) {
+        console.log(`Name: ${key} -- Personal Number: ${employeesList[key]}`);
+    };
 
 }
 employees([
