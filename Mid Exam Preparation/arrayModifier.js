@@ -1,3 +1,8 @@
+// You are given an array with integers. Write a program to modify the elements after receiving the following commands:
+// •	"swap {index1} {index2}" takes two elements and swap their places.
+// •	"multiply {index1} {index2}" takes element at the 1st index and multiply it with the element at 2nd index. Save the product at the 1st index.
+// •	"decrease" decreases all elements in the array with 1.
+
 //  Solve 1 of 3:
 function arrayModifier(array) {
 
