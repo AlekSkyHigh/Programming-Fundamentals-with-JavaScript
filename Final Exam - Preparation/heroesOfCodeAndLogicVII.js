@@ -1,3 +1,13 @@
+// Input
+// •	On the first line of the standard input, you will receive an integer n
+// •	On the following n lines, the heroes themselves will follow with their hit points and mana points separated by a space in the following format
+// •	You will be receiving different commands, each on a new line, separated by " – ", until the "End" command is given
+// Output
+// •	Print all members of your party who are still alive, in the following format (their HP/MP need to be indented 2 spaces):
+// "{hero name}
+//   HP: {current HP}
+//   MP: {current MP}"
+
 function heroesOfCodeAndLogicVII(inputArrayStrings) {
 
     let heroesAvailable = Number(inputArrayStrings.shift());
