@@ -61,7 +61,6 @@ function vacation(group, type, day) {
     }
 
     console.log(`Total price: ${price.toFixed(2)}`);
-
 }
 vacation(30, "Students", "Sunday")
 vacation(40, "Regular", "Saturday")
