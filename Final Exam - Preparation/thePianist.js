@@ -94,7 +94,6 @@ function thePianist(inputArrayStrings) {
     }
 
     arrayCollection.forEach(obj => console.log(`${obj.piece} -> Composer: ${obj.composer}, Key: ${obj.key}`));
-
 }
 // thePianist([
 //     '3',
